@@ -1,0 +1,26 @@
+
+
+body {
+
+    background-color: rgb(253, 181, 181);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 90%;
+    height: 80vh;
+
+    background-color: rgb(145, 145, 247);
+
+    box-sizing: border-box;
+
+    
+}
+
+img {
+    width: 30%;
+    background: red;
+}
