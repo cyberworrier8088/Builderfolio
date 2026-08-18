@@ -30,3 +30,10 @@ git clone [https://github.com/cyberworrier8088/Builderfolio.git](https://github.
 cd Builderfolio
 
 # open index.html in your browserrrrrr
+
+```
+# Project Struture
+
+assets = This is for storing external datas like img and etc
+index.html = This is main web page evarthing include that
+style.css = This for styling that web page.
