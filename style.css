@@ -137,7 +137,7 @@ p {
 
 .project-card:hover {
     transform: translateY();
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.568);
 }
 
 .project-card h1 {
@@ -196,4 +196,104 @@ p {
 .github-link img {
     width: 18px;
     height: 18px;
+}
+
+
+/* Contact */
+
+#third {
+    width: 100%;
+    min-height: 100vh;
+    padding: 80px 24px;
+    background-color: #f3f4f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-c {
+    width: 90%;
+    max-width: 450px;
+    padding: 36px 24px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-c h1 {
+    font-size: 1.75rem;
+    margin: 0 0 12px 0;
+    color: #1f2937;
+}
+
+.card-c h1 span {
+    color: #e54683;
+    border-bottom: 2px solid #ff9595;
+}
+
+.card-c p {
+    color: #6b7280;
+    margin-bottom: 28px;
+    line-height: 1.5;
+
+    border-bottom: 1px solid #ff959542;
+}
+
+.contect-links {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.contect-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    padding: 12px 20px;
+    border-radius: 10px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+}
+
+.contect-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+.contect-btn.github {
+    background-color: #1f2937;
+    color: #ffffff;
+}
+
+.contect-btn.github:hover {
+    background-color: #111827;
+}
+
+.contect-btn.github img {
+    width: 20px;
+    height: 20px;
+    filter: invert(1);
+}
+
+.contect-btn.instagram {
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743,#cc2366, #bc1888);
+    color: #ffffff;
+}
+
+.contect-btn.instagram img {
+
+    width: 20px;
+    height: 20px;
+    filter: brightness(0) invert(1);
 }
